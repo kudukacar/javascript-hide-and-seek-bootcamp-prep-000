@@ -16,4 +16,5 @@ function deepestChild(){
   for (i=0; i < lis.length; i++) {
     test = lis[i].querySelector('div');
   }
+  return test;
 }
